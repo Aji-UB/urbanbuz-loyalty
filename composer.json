@@ -1,0 +1,19 @@
+{
+  "name": "urbanbuz/loyalty",
+  "description": "Loyalty extension from UrbanBuz",
+  "version": "1.0.1",
+  "require": {
+    "php": "~7.0.3||~7.1.3||~7.2.0||~7.3.0",
+    "urbanbuz-v3/api": "1.0.0"
+  },
+  "repositories": {
+    "type": "composer",
+    "url": "https://repo.magento.com/"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "UrbanBuz\\Loyalty\\": ""
+    }
+  }
+}
